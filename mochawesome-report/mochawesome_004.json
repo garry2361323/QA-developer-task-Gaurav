@@ -1,0 +1,199 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-19T16:47:17.464Z",
+    "end": "2022-03-19T16:47:31.156Z",
+    "duration": 13692,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f6c04f80-6bd1-423b-b8a8-dc0890251804",
+      "title": "",
+      "fullFile": "cypress/integration/addAsset.feature",
+      "file": "cypress/integration/addAsset.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "415eed44-d8ca-4d9f-87b4-c04adba73a75",
+          "title": "Add Asset feature",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Add invalid asset (example #1)",
+              "fullTitle": "Add Asset feature Add invalid asset (example #1)",
+              "timedOut": null,
+              "duration": 3986,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "579389b4-dc29-401a-abe1-64f31a5abb3d",
+              "parentUUID": "415eed44-d8ca-4d9f-87b4-c04adba73a75",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Add invalid asset (example #2)",
+              "fullTitle": "Add Asset feature Add invalid asset (example #2)",
+              "timedOut": null,
+              "duration": 1124,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "cca6c85b-80d4-4b96-8154-328a3bf642f1",
+              "parentUUID": "415eed44-d8ca-4d9f-87b4-c04adba73a75",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Add invalid asset (example #3)",
+              "fullTitle": "Add Asset feature Add invalid asset (example #3)",
+              "timedOut": null,
+              "duration": 1034,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "4a8b65a6-f844-49ab-a0b5-f038c7454a7e",
+              "parentUUID": "415eed44-d8ca-4d9f-87b4-c04adba73a75",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Add no asset",
+              "fullTitle": "Add Asset feature Add no asset",
+              "timedOut": null,
+              "duration": 528,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "fa77489b-6b64-4f74-88e9-ea2f619f840b",
+              "parentUUID": "415eed44-d8ca-4d9f-87b4-c04adba73a75",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Add valid asset",
+              "fullTitle": "Add Asset feature Add valid asset",
+              "timedOut": null,
+              "duration": 2934,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "331d588e-5bcf-447e-bff7-7bcd0a8f21af",
+              "parentUUID": "415eed44-d8ca-4d9f-87b4-c04adba73a75",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Add duplicate asset",
+              "fullTitle": "Add Asset feature Add duplicate asset",
+              "timedOut": null,
+              "duration": 3897,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "9db04908-20a0-40d2-a90d-905418bc656c",
+              "parentUUID": "415eed44-d8ca-4d9f-87b4-c04adba73a75",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "579389b4-dc29-401a-abe1-64f31a5abb3d",
+            "cca6c85b-80d4-4b96-8154-328a3bf642f1",
+            "4a8b65a6-f844-49ab-a0b5-f038c7454a7e",
+            "fa77489b-6b64-4f74-88e9-ea2f619f840b",
+            "331d588e-5bcf-447e-bff7-7bcd0a8f21af",
+            "9db04908-20a0-40d2-a90d-905418bc656c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 13503,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": "false",
+        "html": "false",
+        "json": "true"
+      },
+      "version": "6.1.1"
+    }
+  }
+}

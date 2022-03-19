@@ -1,0 +1,199 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-19T16:47:54.532Z",
+    "end": "2022-03-19T16:48:03.728Z",
+    "duration": 9196,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "15c82dfa-f63b-495b-8c2a-816b0804e327",
+      "title": "",
+      "fullFile": "cypress/integration/existingAssets_Stub.feature",
+      "file": "cypress/integration/existingAssets_Stub.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f0b92cf9-5eb8-45f6-b5cd-ea8b201788f2",
+          "title": "Search Existing Asset feature with stub",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Search for an Asset",
+              "fullTitle": "Search Existing Asset feature with stub Search for an Asset",
+              "timedOut": null,
+              "duration": 3093,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "a0b9101f-ca47-4ece-a283-93fb96b155eb",
+              "parentUUID": "f0b92cf9-5eb8-45f6-b5cd-ea8b201788f2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate show entries (example #1)",
+              "fullTitle": "Search Existing Asset feature with stub Validate show entries (example #1)",
+              "timedOut": null,
+              "duration": 953,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "af740c56-f91f-40e6-9688-f35cea79fd17",
+              "parentUUID": "f0b92cf9-5eb8-45f6-b5cd-ea8b201788f2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate show entries (example #2)",
+              "fullTitle": "Search Existing Asset feature with stub Validate show entries (example #2)",
+              "timedOut": null,
+              "duration": 1057,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "e1d9fc29-33ab-474c-80d0-bb650b1314d7",
+              "parentUUID": "f0b92cf9-5eb8-45f6-b5cd-ea8b201788f2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate show entries (example #3)",
+              "fullTitle": "Search Existing Asset feature with stub Validate show entries (example #3)",
+              "timedOut": null,
+              "duration": 1398,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "4b61c2f9-dc6d-4116-9622-90b4c7988fbf",
+              "parentUUID": "f0b92cf9-5eb8-45f6-b5cd-ea8b201788f2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate show entries (example #4)",
+              "fullTitle": "Search Existing Asset feature with stub Validate show entries (example #4)",
+              "timedOut": null,
+              "duration": 1957,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "844b5984-8fab-4d8f-aea2-a887e73c4104",
+              "parentUUID": "f0b92cf9-5eb8-45f6-b5cd-ea8b201788f2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate sorting on Asset Name",
+              "fullTitle": "Search Existing Asset feature with stub Validate sorting on Asset Name",
+              "timedOut": null,
+              "duration": 585,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "1c8eacd9-4f05-443c-b774-66c940f9bad8",
+              "parentUUID": "f0b92cf9-5eb8-45f6-b5cd-ea8b201788f2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a0b9101f-ca47-4ece-a283-93fb96b155eb",
+            "af740c56-f91f-40e6-9688-f35cea79fd17",
+            "e1d9fc29-33ab-474c-80d0-bb650b1314d7",
+            "4b61c2f9-dc6d-4116-9622-90b4c7988fbf",
+            "844b5984-8fab-4d8f-aea2-a887e73c4104",
+            "1c8eacd9-4f05-443c-b774-66c940f9bad8"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9043,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": "false",
+        "html": "false",
+        "json": "true"
+      },
+      "version": "6.1.1"
+    }
+  }
+}
